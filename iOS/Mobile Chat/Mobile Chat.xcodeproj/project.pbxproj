@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F9B7019CEE476165817393 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21200BF905EF044EA87647A6 /* libPods.a */; };
+		18FEDAFE1A5C2C830059188F /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FEDAFC1A5C2C830059188F /* ChatViewController.m */; };
+		18FEDAFF1A5C2C830059188F /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FEDAFD1A5C2C830059188F /* ChatViewController.xib */; };
+		18FEDB061A5C36950059188F /* DemoModelData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FEDB051A5C36950059188F /* DemoModelData.m */; };
+		18FEDB091A5C37170059188F /* NSUserDefaults+DemoSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FEDB081A5C37170059188F /* NSUserDefaults+DemoSettings.m */; };
+		18FEDB0C1A5C44EC0059188F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FEDB0B1A5C44EC0059188F /* Images.xcassets */; };
+		F5E36BF01851FB140014401D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E36BEF1851FB140014401D /* UIKit.framework */; };
+		F5E36BF21851FB140014401D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E36BF11851FB140014401D /* Foundation.framework */; };
+		F5E36BF41851FB140014401D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E36BF31851FB140014401D /* CoreGraphics.framework */; };
+		F5E36BFA1851FB140014401D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5E36BF81851FB140014401D /* InfoPlist.strings */; };
+		F5E36BFC1851FB140014401D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E36BFB1851FB140014401D /* main.m */; };
+		F5E36C001851FB140014401D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E36BFF1851FB140014401D /* AppDelegate.m */; };
+		F5E36C021851FB140014401D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C011851FB140014401D /* Default.png */; };
+		F5E36C041851FB140014401D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C031851FB140014401D /* Default@2x.png */; };
+		F5E36C061851FB140014401D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C051851FB140014401D /* Default-568h@2x.png */; };
+		F5E36C091851FB140014401D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C071851FB140014401D /* MainStoryboard_iPhone.storyboard */; };
+		F5E36C0C1851FB140014401D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C0A1851FB140014401D /* MainStoryboard_iPad.storyboard */; };
+		F5E36C0F1851FB140014401D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E36C0E1851FB140014401D /* ViewController.m */; };
+		F5E36C601851FB260014401D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C161851FB250014401D /* .gitignore */; };
+		F5E36C611851FB260014401D /* .gitmodules in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C171851FB250014401D /* .gitmodules */; };
+		F5E36C641851FB260014401D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C1C1851FB250014401D /* LICENSE */; };
+		F5E36C661851FB260014401D /* README.rst in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C1F1851FB250014401D /* README.rst */; };
+		F5E36C671851FB260014401D /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = F5E36C211851FB250014401D /* base64.c */; };
+		F5E36C681851FB260014401D /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E36C241851FB250014401D /* NSData+SRB64Additions.m */; };
+		F5E36C691851FB260014401D /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E36C271851FB250014401D /* SRWebSocket.m */; };
+		F5E36C941851FB6F0014401D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E36C931851FB6F0014401D /* libicucore.dylib */; };
+		F5E36C961851FB790014401D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E36C951851FB790014401D /* CFNetwork.framework */; };
+		F5E36C981851FB810014401D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E36C971851FB810014401D /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5E36C8B1851FB260014401D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E36C2D1851FB260014401D /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B2082D1450F597009315AF;
+			remoteInfo = SocketRocket;
+		};
+		F5E36C8D1851FB260014401D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E36C2D1851FB260014401D /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F668C880153E91210044DBAC;
+			remoteInfo = SocketRocketOSX;
+		};
+		F5E36C8F1851FB260014401D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E36C2D1851FB260014401D /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6BDA802145900D200FE3253;
+			remoteInfo = SRWebSocketTests;
+		};
+		F5E36C911851FB260014401D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E36C2D1851FB260014401D /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F62417E314D52F3C003CE997;
+			remoteInfo = TestChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1352AB992AC263F3299B841F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		18FEDAFB1A5C2C830059188F /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		18FEDAFC1A5C2C830059188F /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		18FEDAFD1A5C2C830059188F /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		18FEDB041A5C36950059188F /* DemoModelData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModelData.h; sourceTree = "<group>"; };
+		18FEDB051A5C36950059188F /* DemoModelData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModelData.m; sourceTree = "<group>"; };
+		18FEDB071A5C37170059188F /* NSUserDefaults+DemoSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+DemoSettings.h"; sourceTree = "<group>"; };
+		18FEDB081A5C37170059188F /* NSUserDefaults+DemoSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+DemoSettings.m"; sourceTree = "<group>"; };
+		18FEDB0B1A5C44EC0059188F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B7FA462259744107A01A715 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		21200BF905EF044EA87647A6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E36BEC1851FB140014401D /* Mobile Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E36BEF1851FB140014401D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5E36BF11851FB140014401D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5E36BF31851FB140014401D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5E36BF71851FB140014401D /* Mobile Chat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mobile Chat-Info.plist"; sourceTree = "<group>"; };
+		F5E36BF91851FB140014401D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5E36BFB1851FB140014401D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5E36BFD1851FB140014401D /* Mobile Chat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mobile Chat-Prefix.pch"; sourceTree = "<group>"; };
+		F5E36BFE1851FB140014401D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5E36BFF1851FB140014401D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5E36C011851FB140014401D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F5E36C031851FB140014401D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F5E36C051851FB140014401D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F5E36C081851FB140014401D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F5E36C0B1851FB140014401D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F5E36C0D1851FB140014401D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5E36C0E1851FB140014401D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5E36C161851FB250014401D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F5E36C171851FB250014401D /* .gitmodules */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
+		F5E36C1C1851FB250014401D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F5E36C1F1851FB250014401D /* README.rst */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.rst; sourceTree = "<group>"; };
+		F5E36C211851FB250014401D /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		F5E36C221851FB250014401D /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		F5E36C231851FB250014401D /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
+		F5E36C241851FB250014401D /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
+		F5E36C251851FB250014401D /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		F5E36C261851FB250014401D /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		F5E36C271851FB250014401D /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		F5E36C2D1851FB260014401D /* SocketRocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SocketRocket.xcodeproj; sourceTree = "<group>"; };
+		F5E36C931851FB6F0014401D /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		F5E36C951851FB790014401D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F5E36C971851FB810014401D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F5E36C99185209090014401D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5E36BE91851FB140014401D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E36BF21851FB140014401D /* Foundation.framework in Frameworks */,
+				F5E36C981851FB810014401D /* Security.framework in Frameworks */,
+				F5E36C961851FB790014401D /* CFNetwork.framework in Frameworks */,
+				F5E36C941851FB6F0014401D /* libicucore.dylib in Frameworks */,
+				F5E36BF01851FB140014401D /* UIKit.framework in Frameworks */,
+				F5E36BF41851FB140014401D /* CoreGraphics.framework in Frameworks */,
+				05F9B7019CEE476165817393 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C89D5F7FB7DC5A0FAA88CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1352AB992AC263F3299B841F /* Pods.debug.xcconfig */,
+				1B7FA462259744107A01A715 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5E36BE31851FB140014401D = {
+			isa = PBXGroup;
+			children = (
+				F5E36C99185209090014401D /* AssetsLibrary.framework */,
+				F5E36C151851FB250014401D /* SocketRocket-master */,
+				F5E36BF51851FB140014401D /* Mobile Chat */,
+				F5E36BEE1851FB140014401D /* Frameworks */,
+				F5E36BED1851FB140014401D /* Products */,
+				02C89D5F7FB7DC5A0FAA88CA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F5E36BED1851FB140014401D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5E36BEC1851FB140014401D /* Mobile Chat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E36BEE1851FB140014401D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5E36C931851FB6F0014401D /* libicucore.dylib */,
+				F5E36C951851FB790014401D /* CFNetwork.framework */,
+				F5E36C971851FB810014401D /* Security.framework */,
+				F5E36BEF1851FB140014401D /* UIKit.framework */,
+				F5E36BF11851FB140014401D /* Foundation.framework */,
+				F5E36BF31851FB140014401D /* CoreGraphics.framework */,
+				21200BF905EF044EA87647A6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5E36BF51851FB140014401D /* Mobile Chat */ = {
+			isa = PBXGroup;
+			children = (
+				F5E36BFE1851FB140014401D /* AppDelegate.h */,
+				F5E36BFF1851FB140014401D /* AppDelegate.m */,
+				F5E36C071851FB140014401D /* MainStoryboard_iPhone.storyboard */,
+				F5E36C0A1851FB140014401D /* MainStoryboard_iPad.storyboard */,
+				F5E36C0D1851FB140014401D /* ViewController.h */,
+				F5E36C0E1851FB140014401D /* ViewController.m */,
+				18FEDB041A5C36950059188F /* DemoModelData.h */,
+				18FEDB051A5C36950059188F /* DemoModelData.m */,
+				18FEDB071A5C37170059188F /* NSUserDefaults+DemoSettings.h */,
+				18FEDB081A5C37170059188F /* NSUserDefaults+DemoSettings.m */,
+				18FEDAFB1A5C2C830059188F /* ChatViewController.h */,
+				18FEDAFC1A5C2C830059188F /* ChatViewController.m */,
+				18FEDAFD1A5C2C830059188F /* ChatViewController.xib */,
+				18FEDB0B1A5C44EC0059188F /* Images.xcassets */,
+				F5E36BF61851FB140014401D /* Supporting Files */,
+			);
+			path = "Mobile Chat";
+			sourceTree = "<group>";
+		};
+		F5E36BF61851FB140014401D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5E36BF71851FB140014401D /* Mobile Chat-Info.plist */,
+				F5E36BF81851FB140014401D /* InfoPlist.strings */,
+				F5E36BFB1851FB140014401D /* main.m */,
+				F5E36BFD1851FB140014401D /* Mobile Chat-Prefix.pch */,
+				F5E36C011851FB140014401D /* Default.png */,
+				F5E36C031851FB140014401D /* Default@2x.png */,
+				F5E36C051851FB140014401D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5E36C151851FB250014401D /* SocketRocket-master */ = {
+			isa = PBXGroup;
+			children = (
+				F5E36C161851FB250014401D /* .gitignore */,
+				F5E36C171851FB250014401D /* .gitmodules */,
+				F5E36C1C1851FB250014401D /* LICENSE */,
+				F5E36C1F1851FB250014401D /* README.rst */,
+				F5E36C201851FB250014401D /* SocketRocket */,
+				F5E36C2D1851FB260014401D /* SocketRocket.xcodeproj */,
+			);
+			path = "SocketRocket-master";
+			sourceTree = "<group>";
+		};
+		F5E36C201851FB250014401D /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				F5E36C211851FB250014401D /* base64.c */,
+				F5E36C221851FB250014401D /* base64.h */,
+				F5E36C231851FB250014401D /* NSData+SRB64Additions.h */,
+				F5E36C241851FB250014401D /* NSData+SRB64Additions.m */,
+				F5E36C251851FB250014401D /* SocketRocket-Prefix.pch */,
+				F5E36C261851FB250014401D /* SRWebSocket.h */,
+				F5E36C271851FB250014401D /* SRWebSocket.m */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		F5E36C2E1851FB260014401D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5E36C8C1851FB260014401D /* libSocketRocket.a */,
+				F5E36C8E1851FB260014401D /* SocketRocket.framework */,
+				F5E36C901851FB260014401D /* SRWebSocketTests.octest */,
+				F5E36C921851FB260014401D /* TestChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5E36BEB1851FB140014401D /* Mobile Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E36C121851FB140014401D /* Build configuration list for PBXNativeTarget "Mobile Chat" */;
+			buildPhases = (
+				DC5B427C062292404D6983BD /* Check Pods Manifest.lock */,
+				F5E36BE81851FB140014401D /* Sources */,
+				F5E36BE91851FB140014401D /* Frameworks */,
+				F5E36BEA1851FB140014401D /* Resources */,
+				18FEDAD71A5B1A2F0059188F /* Run Script */,
+				F0F0641AFFC26F3BBC343E42 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobile Chat";
+			productName = "Mobile Chat";
+			productReference = F5E36BEC1851FB140014401D /* Mobile Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5E36BE41851FB140014401D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = FHICT;
+			};
+			buildConfigurationList = F5E36BE71851FB140014401D /* Build configuration list for PBXProject "Mobile Chat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5E36BE31851FB140014401D;
+			productRefGroup = F5E36BED1851FB140014401D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F5E36C2E1851FB260014401D /* Products */;
+					ProjectRef = F5E36C2D1851FB260014401D /* SocketRocket.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F5E36BEB1851FB140014401D /* Mobile Chat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F5E36C8C1851FB260014401D /* libSocketRocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSocketRocket.a;
+			remoteRef = F5E36C8B1851FB260014401D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5E36C8E1851FB260014401D /* SocketRocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SocketRocket.framework;
+			remoteRef = F5E36C8D1851FB260014401D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5E36C901851FB260014401D /* SRWebSocketTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SRWebSocketTests.octest;
+			remoteRef = F5E36C8F1851FB260014401D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5E36C921851FB260014401D /* TestChat.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TestChat.app;
+			remoteRef = F5E36C911851FB260014401D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5E36BEA1851FB140014401D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E36BFA1851FB140014401D /* InfoPlist.strings in Resources */,
+				F5E36C021851FB140014401D /* Default.png in Resources */,
+				F5E36C041851FB140014401D /* Default@2x.png in Resources */,
+				F5E36C061851FB140014401D /* Default-568h@2x.png in Resources */,
+				F5E36C091851FB140014401D /* MainStoryboard_iPhone.storyboard in Resources */,
+				18FEDAFF1A5C2C830059188F /* ChatViewController.xib in Resources */,
+				F5E36C0C1851FB140014401D /* MainStoryboard_iPad.storyboard in Resources */,
+				F5E36C601851FB260014401D /* .gitignore in Resources */,
+				F5E36C611851FB260014401D /* .gitmodules in Resources */,
+				18FEDB0C1A5C44EC0059188F /* Images.xcassets in Resources */,
+				F5E36C641851FB260014401D /* LICENSE in Resources */,
+				F5E36C661851FB260014401D /* README.rst in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18FEDAD71A5B1A2F0059188F /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then\n/Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi\n";
+		};
+		DC5B427C062292404D6983BD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0F0641AFFC26F3BBC343E42 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5E36BE81851FB140014401D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E36BFC1851FB140014401D /* main.m in Sources */,
+				F5E36C001851FB140014401D /* AppDelegate.m in Sources */,
+				18FEDB061A5C36950059188F /* DemoModelData.m in Sources */,
+				F5E36C0F1851FB140014401D /* ViewController.m in Sources */,
+				F5E36C671851FB260014401D /* base64.c in Sources */,
+				F5E36C681851FB260014401D /* NSData+SRB64Additions.m in Sources */,
+				18FEDAFE1A5C2C830059188F /* ChatViewController.m in Sources */,
+				F5E36C691851FB260014401D /* SRWebSocket.m in Sources */,
+				18FEDB091A5C37170059188F /* NSUserDefaults+DemoSettings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5E36BF81851FB140014401D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E36BF91851FB140014401D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5E36C071851FB140014401D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E36C081851FB140014401D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F5E36C0A1851FB140014401D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E36C0B1851FB140014401D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5E36C101851FB140014401D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5E36C111851FB140014401D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5E36C131851FB140014401D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1352AB992AC263F3299B841F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mobile Chat/Mobile Chat-Prefix.pch";
+				INFOPLIST_FILE = "Mobile Chat/Mobile Chat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5E36C141851FB140014401D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7FA462259744107A01A715 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mobile Chat/Mobile Chat-Prefix.pch";
+				INFOPLIST_FILE = "Mobile Chat/Mobile Chat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5E36BE71851FB140014401D /* Build configuration list for PBXProject "Mobile Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E36C101851FB140014401D /* Debug */,
+				F5E36C111851FB140014401D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E36C121851FB140014401D /* Build configuration list for PBXNativeTarget "Mobile Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E36C131851FB140014401D /* Debug */,
+				F5E36C141851FB140014401D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5E36BE41851FB140014401D /* Project object */;
+}
